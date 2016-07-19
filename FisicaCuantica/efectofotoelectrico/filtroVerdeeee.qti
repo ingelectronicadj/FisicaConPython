@@ -1,0 +1,154 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabla1	30	2	4/03/16 12:51
+geometry	0	0	445	220	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	-0.05	0.6
+1	-0.1	0.2
+2	-0.2	-0.2
+3	-0.3	-0.5
+4	-0.4	-0.8
+5	-0.5	-1.1
+6	-0.6	-1.3
+7	-0.7	-1.5
+8	-0.8	-1.7
+</data>
+</table>
+<multiLayer>
+Gráfica1	1	1	4/03/16 12:51
+geometry	445	0	527	459	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	509	396
+<PageGeometry>0.00963391	0.0121655	0.980732	0.963504</PageGeometry>
+PlotTitle	Filtro Verde	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Voltaje	Corriente		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	11	75	0	0	0
+ScaleFont0	Ubuntu	9	75	0	0	0
+ScaleFont1	Ubuntu	9	75	0	0	0
+ScaleFont2	Ubuntu	9	75	0	0	0
+ScaleFont3	Ubuntu	9	75	0	0	0
+AxisFont0	Ubuntu	9	50	0	0	0
+AxisFont1	Ubuntu	9	50	0	0	0
+AxisFont2	Ubuntu	9	50	0	0	0
+AxisFont3	Ubuntu	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1f1c1b	#1f1c1b	#1f1c1b	#1f1c1b
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Tabla1_1	Tabla1_2	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>PolinomialAjustar1</Title>
+<Expression>a0+a1*x+a2*x^2</Expression>
+<Variable>x</Variable>
+<Range>-0.9	0</Range>
+<Points>100</Points>
+<Constant>a0	0.734523607645534</Constant>
+<Constant>a1	4.79283049492478</Constant>
+<Constant>a2	2.24387703190484</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-2	1	0	7	5	0	0
+scale	1	-2	1	0	7	5	0	0
+scale	2	-1	0.2	0	7	5	0	0
+scale	3	-0.9	0	0	10	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.96992481203008</x>
+<y>0.89966555183946</y>
+<right>-0.446616541353383</right>
+<bottom>0.488294314381271</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1) Dispersión
+\l(2) Ajuste Polinomial 2°Orden
+</Text>
+<Font>Ubuntu	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[4/03/16 12:53	Gráfica: ''Gráfica1'']
+Polynomial Fit of dataset: Tabla1_2, usando función : a0+a1*x+a2*x^2
+Método de Pesado: Sin pesado
+Desde x = -5,000000000000000e-02 a x = -8,000000000000000e-01
+a0 = 7,345236076455344e-01 +/- 5,968811623772649e-02
+a1 = 4,792830494924780e+00 +/- 3,445135077835235e-01
+a2 = 2,243877031904840e+00 +/- 4,016354870898939e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,947881085620605e-03
+R^2 = 0,995224337396427
+Adjusted R^2 = 0,992358939834283
+RMSE (Root Mean Squared Error) = 0,0628321660108945
+RSS (Residual Sum of Squares) = 0,0236872865137236
+---------------------------------------------------------------------------------------
+</log>
