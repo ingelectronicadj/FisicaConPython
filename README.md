@@ -26,6 +26,32 @@ Este es un repositorio para versionar proyectos sobre graficos en 2D y 3D útile
 ![grafo2](https://github.com/ingelectronicadj/FisicaConPython/blob/master/Fisica/PuntoSolucionEntre2Ecuaciones/salidaGrafica.png?raw=true "grafo2")
 
 # Fisica Cuantica 
+## BandGap
+![grafo2](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/BandGap/interactivaTeclado.png?raw=true "grafo2")
+
+## Funcion de Distribucion Fermi-Dirac
+![grafo2](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/distribucionDeFermi/Fermi-Dirac.png?raw=true "grafo2")
+
+## Banda PROHIBIDA de algunos semiconductores
+![grafo1](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/Banda%20prohibida%20de%20algunos%20semiconductores/salidaGrafica.png?raw=true "grafo1")
+
+## Concentración de portadores intrínsecos
+![grafo1](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/Concentracion%20de%20portadores%20intrinsecos/salidaGrafica.png?raw=true "grafo1")
+
+## Efecto Tunelamiento
+![grafo1](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/Efecto%20Tunelamiento/salidaGrafica.png?raw=true "grafo1")
+
+## Ley de Planck
+![grafo1](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/Ley%20de%20Planck/salidaGrafica.png?raw=true "grafo1")
+
+## LimiteDeWienTeclado
+![grafo1](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/LimiteDeWienTeclado/salidaGrafica.png?raw=true "grafo1")
+
+## Logaritmo de la concentración de portadores intrinsecos
+![grafo2](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/Logaritmo%20de%20la%20concentracion%20de%20portadores%20intrinsecos/salidaGrafica.png?raw=true "grafo2")
+
+## Ripples
+![grafo3](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/Ripples/salidaGrafica.png?raw=true "grafo3")
 
 ### Autor 
 * Diego Javier Mena @ingelectronicadj 
