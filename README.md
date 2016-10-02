@@ -56,5 +56,8 @@ Este es un repositorio para versionar proyectos sobre graficos en 2D y 3D útile
 ## Densidad Intrinseca de Portadores
 ![grafon](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/densidadDePortadores/portadores.png?raw=true "grafon")
 
+## Portadores Arseniuro de galio, Silicio y Germanio
+![grafox](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/portadores/GaAs-Si-Ge.png?raw=true "grafox")
+
 ### Autor 
 * Diego Javier Mena @ingelectronicadj 
