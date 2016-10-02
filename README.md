@@ -59,5 +59,16 @@ Este es un repositorio para versionar proyectos sobre graficos en 2D y 3D útile
 ## Portadores Arseniuro de galio, Silicio y Germanio
 ![grafox](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/portadores/GaAs-Si-Ge.png?raw=true "grafox")
 
+## Ecuación de Schrodinger
+![grafos](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/Soluciones%20de%20la%20ecuacion%20de%20Schrodinger/simulacionElectronPotencial.png?raw=true "grafos")
+
+## Potencial de Barrera para el Electrón
+![grafos](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/Soluciones%20de%20la%20ecuacion%20de%20Schrodinger/Barrera.png?raw=true "grafos")
+
+## Potencial Escalón para el Electrón
+![grafos](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/Soluciones%20de%20la%20ecuacion%20de%20Schrodinger/escalon.png?raw=true "grafos")
+
+
+
 ### Autor 
 * Diego Javier Mena @ingelectronicadj 
