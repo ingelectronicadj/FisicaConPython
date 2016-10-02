@@ -53,5 +53,8 @@ Este es un repositorio para versionar proyectos sobre graficos en 2D y 3D útile
 ## Ripples
 ![grafo3](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/Ripples/salidaGrafica.png?raw=true "grafo3")
 
+## Densidad Intrinseca de Portadores
+![grafon](https://github.com/ingelectronicadj/FisicaConPython/blob/master/FisicaCuantica/densidadDePortadores/portadores.png?raw=true "grafon")
+
 ### Autor 
 * Diego Javier Mena @ingelectronicadj 
