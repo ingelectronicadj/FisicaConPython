@@ -4,7 +4,7 @@
 """
 from bokeh.io import output_file, show
 from bokeh.layouts import widgetbox
-from bokeh.models.widgets import Button, CheckboxButtonGroup, CheckboxGroup
+from bokeh.models.widgets import Button, CheckboxButtonGroup, CheckboxGroup, Dropdown
 
 output_file("tutoGLUD.html")
 #Ejemplo de un boton
@@ -18,6 +18,10 @@ multiBoton = CheckboxButtonGroup(
 checkboxBoton = CheckboxGroup(
         labels=["Opcion A", "Opcion B", "Opcion C"], active=[0, 1])
 
-show(widgetbox(boton, multiBoton, checkboxBoton))
+#Ejemplo de un menu desplegable
+menu = [("Opcion A", "item_1"), ("Opcion B", "item_2"), None, ("Opcion C", "item_3")]
+desplegable = Dropdown(label="Boton desplegable", button_type="warning", menu=menu)
+
+show(widgetbox(boton, multiBoton, checkboxBoton, desplegable))
 
 
