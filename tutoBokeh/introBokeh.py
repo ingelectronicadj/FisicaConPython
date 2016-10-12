@@ -1,10 +1,11 @@
+# Learn Python App
 """ ******************************************************
  *              LIBRERIAS y CONSTANTES
  *********************************************************
 """
 from bokeh.io import output_file, show
 from bokeh.layouts import widgetbox
-from bokeh.models.widgets import Button, CheckboxButtonGroup, CheckboxGroup, Dropdown
+from bokeh.models.widgets import Button, CheckboxButtonGroup, CheckboxGroup, Dropdown, MultiSelect
 
 output_file("tutoGLUD.html")
 #Ejemplo de un boton
@@ -22,6 +23,10 @@ checkboxBoton = CheckboxGroup(
 menu = [("Opcion A", "item_1"), ("Opcion B", "item_2"), None, ("Opcion C", "item_3")]
 desplegable = Dropdown(label="Boton desplegable", button_type="warning", menu=menu)
 
-show(widgetbox(boton, multiBoton, checkboxBoton, desplegable))
+#Ejemplo de una canasta de seleccion
+multiSeleccion = MultiSelect(title="Multiseleccionador de opciones:", value=["foo", "quux"],
+                           options=[("foo", "Opcion 1"), ("bar", "Opcion 2"), ("baz", "Opcion 3"), ("quux", "Opcion 4")])
+
+show(widgetbox(boton, multiBoton, checkboxBoton, desplegable, multiSeleccion))
 
 
