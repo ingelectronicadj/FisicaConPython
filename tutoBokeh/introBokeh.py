@@ -5,7 +5,7 @@
 """
 from bokeh.io import output_file, show
 from bokeh.layouts import widgetbox
-from bokeh.models.widgets import Button, CheckboxButtonGroup, CheckboxGroup, Dropdown, MultiSelect, RadioGroup, Select
+from bokeh.models.widgets import Button, CheckboxButtonGroup, CheckboxGroup, Dropdown, MultiSelect, RadioGroup, Select, Slider
 
 output_file("tutoGLUD.html")
 #Ejemplo de un boton
@@ -34,6 +34,9 @@ radioBotones = RadioGroup(
 #Ejemplo de una canasta de seleccion
 seleccionador = Select(title="Opciones:", value="foo", options=["Comerme una galleta", "Salir a trotar", "Jugar Fretsonfire", "darle a la tesis"])
 
-show(widgetbox(boton, multiBoton, checkboxBoton, desplegable, multiSeleccion, radioBotones, seleccionador))
+#Ejemplo de un Slider
+miSlider = Slider(start=0, end=10, value=3, step=.1, title="Slider para variacion de parametros") #Slider(inicia,termina,arranca,pasos)
+
+show(widgetbox(boton, multiBoton, checkboxBoton, desplegable, multiSeleccion, radioBotones, seleccionador, miSlider))
 
 
