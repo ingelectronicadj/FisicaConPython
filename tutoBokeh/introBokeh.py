@@ -5,7 +5,7 @@
 """
 from bokeh.io import output_file, show
 from bokeh.layouts import widgetbox
-from bokeh.models.widgets import Button, CheckboxButtonGroup, CheckboxGroup, Dropdown, MultiSelect
+from bokeh.models.widgets import Button, CheckboxButtonGroup, CheckboxGroup, Dropdown, MultiSelect, RadioGroup
 
 output_file("tutoGLUD.html")
 #Ejemplo de un boton
@@ -27,6 +27,10 @@ desplegable = Dropdown(label="Boton desplegable", button_type="warning", menu=me
 multiSeleccion = MultiSelect(title="Multiseleccionador de opciones:", value=["foo", "quux"],
                            options=[("foo", "Opcion 1"), ("bar", "Opcion 2"), ("baz", "Opcion 3"), ("quux", "Opcion 4")])
 
-show(widgetbox(boton, multiBoton, checkboxBoton, desplegable, multiSeleccion))
+#Ejemplo de un grupo de radioBotones
+radioBotones = RadioGroup(
+        labels=["Opcion 1", "Opcion 2", "Opcion 3"], active=0)
+
+show(widgetbox(boton, multiBoton, checkboxBoton, desplegable, multiSeleccion, radioBotones))
 
 
