@@ -5,7 +5,7 @@
 """
 from bokeh.io import output_file, show
 from bokeh.layouts import widgetbox
-from bokeh.models.widgets import Button, CheckboxButtonGroup, CheckboxGroup, Dropdown, MultiSelect, RadioGroup, Select, Slider
+from bokeh.models.widgets import Button, CheckboxButtonGroup, CheckboxGroup, Dropdown, MultiSelect, RadioGroup, Select, Slider, TextInput, Div
 
 output_file("tutoGLUD.html")
 #Ejemplo de un boton
@@ -37,6 +37,13 @@ seleccionador = Select(title="Opciones:", value="foo", options=["Comerme una gal
 #Ejemplo de un Slider
 miSlider = Slider(start=0, end=10, value=3, step=.1, title="Slider para variacion de parametros") #Slider(inicia,termina,arranca,pasos)
 
-show(widgetbox(boton, multiBoton, checkboxBoton, desplegable, multiSeleccion, radioBotones, seleccionador, miSlider))
+#Ejemplo Label
+miLabel = TextInput(value="www.semanalinuxud.com", title="Label:")
+
+#Ejemplo de un div() para html
+div = Div(text="""Preparandome para la <a href="https://en.wikipedia.org/wiki/HTML">Semana Linux UDistrital</a>- en homenaje al <b>Sabio Caldas</b> y el desarrollo de tecnologias mas humanas. <i><b>Fecha</b> 24 al 28 de octubre.</i>""",
+width=600, height=100)
+
+show(widgetbox(boton, multiBoton, checkboxBoton, desplegable, multiSeleccion, radioBotones, seleccionador, miSlider, miLabel, div))
 
 
